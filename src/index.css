@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+
+body {
+  margin: 0;
+  
+}
+*{
+  font-family: 'Quicksand',sans-serif;
+}
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.brand-name{
+  color: #3498db;
+}
+
+.navbar{
+  background-color: #fff !important;
+}
+.navbar-brand{
+  font-size: 1.9rem !important;
+  color:#565387;
+}
+/* 
+.container{
+  background-color: #3498db;
+} */
+
+.footer{
+  margin-top:50px;
+}
+.navbar a{
+  font-size: 1.3rem;
+  text-transform: capitalize;
+
+}
+
+.navbar a:hover{
+  color:#3498db !important;
+  border-bottom: 1px solid #3498db;
+}
+
+
+.head{
+  margin-top:5px;
+}
+
+.navbar-nav{
+   display: none;
+}
+
+#header-img{
+  text-align: right;
+}
+
+#header .animated{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+#web{
+  height:40vh;
+  width: 390px;
+}
+
+@-webkit-keyframes up-down{
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+@keyframes up-down {
+  0%{
+    transform: translateY(10px);
+}
+100%{
+  transform: translateY(-10px);
+}
+}
+
+@media(max-width:991px){
+#header{
+  height: 80vh;
+  text-align: center;
+}
+#header .header-img{
+  text-align: center;
+}
+#header .header-img img{
+  width: 60%;
+}
+
+  .navbar-brand{
+    font-size: 1.5rem !important;
+
+  }
+  .menu_active{
+    font-weight: bold;
+    border-bottom: none;
+  }
+  #web{
+    height:30vh;
+    width: 200px;
+  }
+}
